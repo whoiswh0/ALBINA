@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+h1, h2{
+    font-family: 'Pacifico', cursive;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color:#FF3FAC;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:#FF3FAC;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin-right:100px;
+}
+ul img{
+   padding-top: 30px;
+}
+main {
+    text-align: center;
+}
+h1{
+    margin-top: -80px;
+}
+.link{
+    display: inline-block;
+    margin-top: 30px;
+    border: 2px solid  #FF3FAC;
+    padding: 20px 30px;
+    border-radius: 100px;
+}
+.link:hover{
+    background-color: #FF3FAC;
+    color: white;
+    transition: 1s;
+}
+.section2{
+    background-color: #FF3FAC;
+    color: white;
+    margin-top:100px;
+    
+}
+.for_section2_foto{
+    background-image: url('/img/scetion2\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position:  center right;
+    padding: 350px 100px;
+}
+h2{
+    font-size: 30px;
+}
+.worker{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 80px;
+}
+.wo1{
+    border: 1px solid black;
+    width: 300px;
+    height: 170px
+    
+
+
+}
+.wo2{
+    border: 1px solid black;
+    width: 300px;
+    height: 170px;
+    
+    
+}
+.wo3{
+    border: 1px solid black;
+    width: 300px;
+    height: 170px;
+
+}
+.wo4{
+    border: 1px solid black;
+    width: 300px;
+    height: 170px;
+}
+.wo5{
+    border: 1px solid black;
+    width: 300px;
+    height: 170px;
+}
+.wo6{
+    border: 1px solid black;
+    width: 300px;
+    height: 170px;
+}
+.worker1{
+    display: flex;
+    justify-content: space-around
+    
+}
+.worker2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px
+}
+h3{
+    margin-top: 180px;
+
+}
+.quest{
+    height: 100px;
+    background-color: #FF3FAC;
+    margin-top: 100px;
+    text-align: center;
+}
+.p1{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+
+    padding-top: 35px;
+}
+.foto3{
+    padding-top: 70px;
+}
+
+.vstav{
+    background-image: url(/img/Vector\ 2.png);
+    width: 1280px;
+    height: 125px;
+
+
+}    
+.pvst1{
+   display: inline-block;
+   color: white;
+   padding-left: 50px;
+   padding-top: 10px;
+}
+.pvst2{
+    display: inline-block;
+    color: white;
+    padding-left: 100px;
+ }
+ .pvst3{
+    display: inline-block;
+    color: white;
+    padding-left: 120px;
+ }
+ .pvst4{
+    display: flex;
+    color: white;
+    padding-left: 120px;
+ }
+
+
+.four{
+    background-color: #685b62;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+input, button{
+    color:white;
+    background-color: #685b62;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 25px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+
+
+}
+
+button{
+    background-color: #FF3FAC;
+    cursor: pointer;
+    width: 360px;
+}
+
+
+.third{
+    display: flex;
+    padding:60px;
+    align-items: center;
+}
+
+
+
+
+
+.third-text{
+    margin-left: 60px;
+}
+
+
+.str2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.offer{
+    margin: 0;
+    margin-right:60px;
+}
+.arrow{
+    position: absolute;
+    top: -200px;
+    left: 400px;
+}
+
+.white{
+    padding: 200px 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+   
+}
+.white p{
+    background-image: url(/img/Vector\ 2.png);
+    width: 270px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:  40px 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="scroll" href="#a"> обо мне </a></li>
+                <li><a class="scroll"  href="#a2"> для кого </a></li>
+                <li>
+                    <a href="/index.html">
+                        <img src="img/logo.svg" alt="">
+                </a>
+            </li>
+                <li><a class="scroll"  href="#a3">мои работы</a></li>
+                <li><a class="scroll"  href="#a4">процесс работы</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+    <main>
+        <img src="/img/main.png" alt="">
+        <h1>Привет! Я Альбина,  веб-дизайнер</h1>
+        <p>помогаю экспертам и предпринимателям улучшать внешний вид своего бизнеса на сайте через красивый дизайн</p>
+        <a  class="link" href="">ОСТАВИТЬ ЗАЯВКУ НА СОЗДАНИЕ САЙТА</a>
+    </main>
+    <section id="a2" class="section2">
+        <div class="for_section2_foto">
+             <h2>Мои сайты подойдут тем, кто</h2>                                                                                                                                                                                                                                                                                                                                                                           
+             <p>хочет получать стабильные заявки в блоге</p>
+             <p>желает найти клиента, который не привык экономить</p>
+                <p>имеет потребность в правильном выстраивании контента</p>
+   
+            </div>
+    </section>
+    <section id="a3">
+        <h2 class="worker">Мои работы</h2>
+        <section class="worker1">       
+            <div class="wo1">
+                <h3>работа 1</h3>
+            </div>
+            <div class="wo2"><h3>работа 2</h3></div>
+            <div class="wo3"><h3>работа 3</h3></div>
+        </section>
+        <section class="worker2">
+            <div class="wo4"><h3>работа 4</h3></div>
+            <div class="wo5"><h3>работа 5</h3></div>
+            <div class="wo6" ><h3>работа 6</h3></div>
+        </section>
+
+    </section>
+    <section class="quest">
+        <p class="p1">Сейчас у вас нет алгоритма выстраивания контентной воронки?          Нет стабильных заявок в блоге ?           Трудно сделать заказ?</p>
+    </section>
+
+
+    <section class="third">
+        <div class="foto3">
+            <img src="img/Group 1.png" alt="">
+        </div>
+        <div class="third-text">
+            <h4>
+               
+                ПРИХОДИ ЗА САЙТОМ КО МНЕ!
+            </h4>
+            <div id="a" class="third-text-p"></div>
+                <div class="t">
+                    <p class="tex1">
+                        Меня зовут Альбина <br>и я рада приветсвовать тебя
+                    </p>
+                    <p class="tex1">
+                        Являюсь IT-специалистом, прошедшим обучение <br>по направлениям: бaзовый Python, создание сайтов <br>и Web Design
+                    </p>
+                    <p>Имею более 100 наград в области математики и информатики.<br> Владею базовым английским языком.</p>
+                    <p>создала более 20 сайтов в различных тематиках</p>
+
+                </div>
+                <a class="link" href=""> ОСТАВИТЬ ЗАЯВКУ НА СОЗДАНИЕ САЙТА</a>
+   
+        </div>
+    </section>
+    <div id="a4" class="str2">
+        <img src="/img/9027551_undo_arrow_icon 1 1.svg" class="arrow">
+        <h2 class="offer">ПРОЦЕСС СОЗДАНИЯ</h2>
+
+    </div>
+    <section class="white">
+
+      
+            <p>Просмотр вашего продукта,<br>чтобы понять вашу ЦА</p>
+            <p>Создание текста под сайт<br>в прототипе</p>
+            <p>Создание дизайн-макета <br>в Figma</p>
+            <p>Написание кода<br> и отправка конечного результата</p>
+  
+    </section>
+    <section class="four">
+        <form action='https://rlv.zcache.ca/grumpy_cat_thank_you_card-r86fb72ab23934dda84d7d15a8f683109_xvuai_8byvr_1024.jpg'>
+            <h2>Подпишитесь на рассылку!</h2>
+            <input type="text" placeholder="ФИО">
+            <input type="email" placeholder="Электронная почта">
+            <button type="submit">Отправить</button>
+        </form>
+         
+        
+    </section>
+    <script>
+            function handle() {
+    let inputs = document.querySelectorAll("input");
+    let input_values = [];
+    for (let i = 0; i < inputs.length; i++) {
+        input_values.push(inputs[i].value);
+    }
+    alert(input_values)
+}
+    let button = document.querySelector("button")
+    button.addEventListener("click", handle)
+
+let links = document.querySelectorAll('.scroll')
+let tergetID
+
+links.forEach(function(element){
+    element.addEventListener('click',  function(event){
+        event.preventDefault()
+        tergetID = element.getAttribute('href')
+        document.querySelector(tergetID).scrollIntoView({
+            behavior: 'smooth'
+        })
+    })
+})
+    </script>
+</body>
+</html>
+                                                                                                                                                                          
