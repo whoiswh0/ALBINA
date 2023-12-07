@@ -53,7 +53,7 @@ h1{
     
 }
 .for_section2_foto{
-    background-image: url('/img/scetion2\ \(1\).png');
+    background-image: url('scetion2\ \(1\).png');
     background-repeat: no-repeat;
     background-position:  center right;
     padding: 350px 100px;
@@ -134,7 +134,7 @@ h3{
 }
 
 .vstav{
-    background-image: url(/img/Vector\ 2.png);
+    background-image: url(Vector\ 2.png);
     width: 1280px;
     height: 125px;
 
@@ -234,7 +234,7 @@ button{
    
 }
 .white p{
-    background-image: url(/img/Vector\ 2.png);
+    background-image: url(Vector\ 2.png);
     width: 270px;
     height: 120px;
     background-size: contain;
